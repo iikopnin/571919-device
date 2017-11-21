@@ -1,0 +1,16 @@
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation_theme_light {
+  color: #ffffff;
+}
+
+.site-navigation__link:hover,
+.site-navigation__link:focus {
+  opacity: 0.6;
+}
+
+.site-navigation__link:active {
+  opacity: 0.3;
+}

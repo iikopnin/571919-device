@@ -1,0 +1,10 @@
+.best-product__table-row:not(:first-child) {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 36px;
+}
+
+.best-product__table-row:first-child {
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 20px;
+}

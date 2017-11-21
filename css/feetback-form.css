@@ -1,0 +1,41 @@
+.feetback-form__label {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+
+.feetback-form__input,
+.feetback-form__textarea {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(70, 70, 70, 1);
+
+  border: 3px solid transparent;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+.feetback-form__input::placeholder,
+.feetback-form__textarea::placeholder {
+  color: rgba(70, 70, 70, 0.4);
+}
+
+.feetback-form__input:hover,
+.feetback-form__textarea:hover {
+  background-color: #eaeaea;
+}
+
+.feetback-form__input:focus,
+.feetback-form__textarea:focus {
+  border: 3px solid #f7e296;
+  background-color: transparent;
+}
+
+.feetback-form__input:invalid,
+.feetback-form__textarea:invalid {
+  border: 3px solid transparent;
+  background-color: #f6dada;
+}

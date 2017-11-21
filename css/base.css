@@ -1,0 +1,53 @@
+.page {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 14px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+  /* font-weight: normal; */
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th {
+  font-weight: normal;
+}
+
+/* .visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */

@@ -1,0 +1,14 @@
+.services {
+  list-style: none;
+  background-image: linear-gradient(transparent 100px, #e5e5e5 100px)
+}
+
+.services__buttons {
+  list-style: none;
+}
+
+.services__button:active {
+  color: #f7e184;
+
+  background-image: linear-gradient(#000000, #000000);
+}

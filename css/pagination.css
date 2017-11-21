@@ -1,0 +1,44 @@
+.pagination {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.pagination__list {
+  list-style: none;
+}
+
+.pagination__button {
+  background-color: #ebebeb;
+}
+
+.pagination__button:hover, 
+.pagination__button:focus {
+  background-color: #d9d9d9;
+}
+
+.pagination__button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.pagination__link {
+  opacity: 0.3;
+}
+
+.pagination__link:hover,
+.pagination__link:focus {
+  opacity: 0.6;
+}
+
+.pagination__link:active {
+  opacity: 0.1;
+}
+
+.pagination__link_current ,
+.pagination__link_current:hover ,
+.pagination__link_current:focus ,
+.pagination__link_current:active {
+  opacity: 1;
+}

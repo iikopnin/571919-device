@@ -1,0 +1,33 @@
+.product__name {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product__price {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  color: 464646;
+}
+
+.product__button {
+  height: 36px;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 36px;
+  opacity: 0.5;
+
+  border: none;
+  background: none;
+}
+
+.product__button:hover,
+.product__button:focus {
+  opacity: 1;
+}
+
+.product__button:active {
+  opacity: 0.2;
+}

@@ -1,0 +1,12 @@
+.categories__list {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+  list-style: none;
+}
+
+.categories__link:focus,
+.categories__link:active {
+  color: rgba(0, 0, 0, 0.3);
+}

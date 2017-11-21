@@ -1,0 +1,27 @@
+.sorting__list  {
+  font-size: 14px;
+  line-height: 18px;
+
+  list-style: none;
+}
+
+.sorting__link {
+  opacity: 0.3;
+}
+
+.sorting__link:hover,
+.sorting__link:focus {
+  opacity: 0.6
+}
+
+.sorting__link:active {
+  opacity: 1;
+}
+
+.sorting__link_current,
+.sorting__link_current:hover,
+.sorting__link_current:focus,
+.sorting__link_current:active {
+  opacity: 1;
+}
+

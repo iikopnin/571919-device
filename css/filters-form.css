@@ -1,0 +1,19 @@
+.filters-form__legend {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.filters-form__label {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+input:disabled ~ .filters-form__label {
+  color: #a6a6a6;
+}
+
+.filters-form__list {
+  list-style: none;
+}

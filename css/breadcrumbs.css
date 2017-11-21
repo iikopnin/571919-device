@@ -1,0 +1,24 @@
+.breadcrumbs {
+  color: #000000;
+}
+
+.breadcrumbs__list {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 36px;
+  
+  list-style: none;
+  opacity: 0.3;
+}
+
+.breadcrumbs__link:hover,
+.breadcrumbs__link:focus {
+  opacity: 0.6;
+}
+
+.breadcrumbs__link:active {
+  opacity: 0.1;
+}
+
+
+

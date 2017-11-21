@@ -1,0 +1,20 @@
+.user-navigation {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 36px;
+
+  list-style: none;
+}
+
+.user-navigation_theme_light {
+  color: #ffffff;
+}
+
+.user-navigation__link:hover ,
+.user-navigation__link:focus {
+  opacity: 0.6;
+}
+
+.user-navigation__link:active {
+  opacity: 0.3;
+}
