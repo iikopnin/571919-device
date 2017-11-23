@@ -15,7 +15,8 @@
   background-image: linear-gradient(transparent 40%, #f0c52e 40%, #f0c52e 60%, transparent 60%);
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   background-image: linear-gradient(transparent 0%, #f0c52e 0%, #f0c52e 100%, transparent 100%);
 }
 
