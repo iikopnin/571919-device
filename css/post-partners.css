@@ -1,5 +1,16 @@
 .post-partners {
+  margin: 0;
+  
+  padding: 35px;
+
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 15px;
   font-weight: bold;
+  line-height: 20px;
+
+  list-style: none;
+}
+
+.post-partners__item {
+  margin-bottom: 20px;
 }

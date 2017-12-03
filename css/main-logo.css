@@ -1,0 +1,20 @@
+.main-logo {
+  display: inline-block;
+  width: 164px;
+  height: 36px;
+
+  transition-duration: 0.3s;
+}
+
+.main-logo__image {
+  max-width: 100%;
+}
+
+.main-logo:hover,
+.main-logo:focus {
+  opacity: 0.6;
+}
+
+.main-logo:active {
+  opacity: 0.3;
+}

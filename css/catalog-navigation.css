@@ -1,13 +1,36 @@
 .catalog-navigation {
   font-size: 15px;
   font-weight: lighter;
+  line-height: 36px;
+}
 
+.catalog-navigation__list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 140px;
+  /* height: 0;
+  overflow: hidden; */
+  
   list-style: none;
 }
 
+.catalog-navigation__item:last-child {
+  flex-basis: 100%;
+}
+
 .catalog-navigation__button {
+  padding: 0;
+
   border: none;
   background: none;
+
+  outline: none;
 }
 
 .catalog-navigation__button:hover,
@@ -20,7 +43,8 @@
 }
 
 .catalog-navigation__link {
-  line-height: 36px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .catalog-navigation__link:hover,

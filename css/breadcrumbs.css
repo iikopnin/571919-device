@@ -1,13 +1,24 @@
 .breadcrumbs {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 36px;
   color: #000000;
 }
 
 .breadcrumbs__list {
-  font-size: 14px;
-  font-weight: lighter;
-  line-height: 36px;
+  margin: 0;
+
+  padding: 0;
+  display: flex;
   
+
   list-style: none;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+  color: inherit;
+  
   opacity: 0.3;
 }
 

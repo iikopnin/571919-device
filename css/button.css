@@ -1,25 +1,64 @@
 .button {
-  display: inline-block;
-  padding: 0 30px;
+  position: relative;
+  z-index: 1;
 
+  box-sizing: border-box;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 220px;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 40px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
 
-  border: none;
-  border-radius: 0;
-  background-color: none;
-  background-image: linear-gradient(transparent 40%, #f0c52e 40%, #f0c52e 60%, transparent 60%);
+  background: none;
+  transition-duration: 0.3s;
+  outline: none;
 }
 
-.button:hover,
-.button:focus {
-  background-image: linear-gradient(transparent 0%, #f0c52e 0%, #f0c52e 100%, transparent 100%);
+.button::before {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+
+  height: 8px;
+  
+  background-color: #f0c52e;
+  transform: translateY(-50%);
+  transition-duration: 0.3s;
+}
+
+.button:hover::before,
+.button:focus::before {
+  height: 40px;
 }
 
 .button:active {
   color: rgba(0, 0, 0, 0.3);
 }
+
+.button_size_s {
+  width: 200px;
+}
+
+.button_size_m {
+  width: 260px;
+}
+
+

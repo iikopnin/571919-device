@@ -1,7 +1,10 @@
-.products-slideshow {
+.products-slideshow__list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
-.products-slideshow__buttons {
+.products-slideshow__controls {
   list-style: none;
 }

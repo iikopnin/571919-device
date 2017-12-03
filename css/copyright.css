@@ -1,7 +1,16 @@
-.copyright__address,
-.copyright__phone {
+.copyright {
   font-size: 15px;
   font-weight: lighter;
   font-style: normal;
   line-height: 30px;
+  color: #ffffff;
 }
+
+.copyright__link {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+
+  outline: none;
+}
+

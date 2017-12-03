@@ -1,9 +1,22 @@
 .categories__list {
+  display: flex;
+  justify-content: space-between;
+  
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  line-height: 25px;
 
   list-style: none;
+}
+
+.categories__item {
+  width: 160px;
+}
+
+.categories__link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .categories__link:focus,

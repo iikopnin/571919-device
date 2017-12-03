@@ -27,20 +27,28 @@
 } */
 
 .heading {
+  margin: 0;
+
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: bold;
+  line-height: 58px;
 }
 
 .bold-upper-text {
+  margin: 0;
+
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  line-height: 25px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 .paragraph {
+  margin: 0;
+
   font-size: 15px;
   line-height: 30px;
 }

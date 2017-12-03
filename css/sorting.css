@@ -1,4 +1,18 @@
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  align-items: center;
+}
+
 .sorting__list  {
+  margin: 0;
+
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+
   font-size: 14px;
   line-height: 18px;
 
@@ -6,6 +20,9 @@
 }
 
 .sorting__link {
+  text-decoration: none;
+  color: inherit;
+
   opacity: 0.3;
 }
 
@@ -23,5 +40,9 @@
 .sorting__link_current:focus,
 .sorting__link_current:active {
   opacity: 1;
+}
+
+.sorting__direction-links {
+
 }
 

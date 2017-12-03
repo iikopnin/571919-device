@@ -1,0 +1,20 @@
+.academy-link {
+  display: inline-block;
+  width: 27px;
+  height: 35px;
+
+  background-image: url("../img/png/logo-html.png");
+  background-repeat: no-repeat;
+
+  transition-duration: 0.3s;
+  outline: none;
+}
+
+.academy-link:hover,
+.academy-link:focus {
+  opacity: 0.6;
+}
+
+.academy-link:active {
+  opacity: 0.3;
+}

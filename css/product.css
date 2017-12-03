@@ -1,4 +1,15 @@
+.product {
+  width: 360px;
+}
+
+.product__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .product__name {
+  margin: 0;
+
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -7,7 +18,7 @@
 .product__price {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
-  color: 464646;
+  color: #464646;
 }
 
 .product__button {

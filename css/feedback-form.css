@@ -1,0 +1,41 @@
+.feedback-form__label {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+
+.feedback-form__input,
+.feedback-form__textarea {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(70, 70, 70, 1);
+
+  border: 3px solid transparent;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+.feedback-form__input::placeholder,
+.feedback-form__textarea::placeholder {
+  color: rgba(70, 70, 70, 0.4);
+}
+
+.feedback-form__input:hover,
+.feedback-form__textarea:hover {
+  background-color: #eaeaea;
+}
+
+.feedback-form__input:focus,
+.feedback-form__textarea:focus {
+  border: 3px solid #f7e296;
+  background-color: transparent;
+}
+
+.feedback-form__input:invalid,
+.feedback-form__textarea:invalid {
+  border: 3px solid transparent;
+  background-color: #f6dada;
+}
